@@ -16,7 +16,7 @@
         <h1>Consultar</h1>
          <a href="index.jsp">Regresar al inicio</a>
         <% 
-        String user = "root";
+            String user = "root";
             String pwd = "root";
             Connection canal = null;
             ResultSet tabla = null;
