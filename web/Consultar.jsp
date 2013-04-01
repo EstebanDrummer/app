@@ -13,7 +13,8 @@
         <title>CONSULTA</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Consultar</h1>
+         <a href="index.jsp">Regresar al inicio</a>
         <% 
         String user = "root";
             String pwd = "root";
@@ -49,10 +50,9 @@
                     System.out.println("Exception" + Ex.toString());
                 }
             };
-            out.println("<FORM ACTION=Consulta.jsp METHOD=post>");
+            out.println("<FORM ACTION=Consultar.jsp METHOD=post>");
             out.println("<INPUT TYPE=SUBMIT NAME=OK VALUE= CONSULTA><BR>");
             out.println("</FORM>");
         %>
-        <a href="index.jsp">Inicio</a>
     </body>
 </html>

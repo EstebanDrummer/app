@@ -9,13 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Funciones Básicas</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-         <a href="#">Insertar<a/>
-         <a href="#">Borrar<a/>
-         <a href="#">Insertar<a/>
-         <a href="Consulta.jsp">Consultar</a>
+        <h1>Principal</h1>
+         <a href="Insertar.jsp">Insertar<a/>
+         <a href="Borrar.jsp">Borrar<a/>
+         <a href="Actualizar.jsp">Actualizar<a/>
+         <a href="Consultar.jsp">Consultar</a>
     </body>
 </html>
