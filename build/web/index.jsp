@@ -21,8 +21,13 @@
 =======
         <h1>Hello World!</h1>
          <a href="#">Insertar<a/>
+<<<<<<< HEAD
          <a href="#">Borrar<a/>
          <a href="Actualizar.jsp">Actualizar<a/>
+=======
+         <a href="Borrar.jsp">Borrar<a/>
+         <a href="#">Actualizar<a/>
+>>>>>>> Borrar
          <a href="Consulta.jsp">Consultar</a>
 >>>>>>> Actualizar
     </body>
