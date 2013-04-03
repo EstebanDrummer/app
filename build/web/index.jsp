@@ -15,7 +15,7 @@
         <h1>Hello World!</h1>
          <a href="#">Insertar<a/>
          <a href="#">Borrar<a/>
-         <a href="#">Insertar<a/>
+         <a href="Actualizar.jsp">Actualizar<a/>
          <a href="Consulta.jsp">Consultar</a>
     </body>
 </html>
