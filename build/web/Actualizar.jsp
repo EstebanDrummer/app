@@ -34,9 +34,6 @@
                     instruccion = canal.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
                     
                     String id = request.getParameter("id");
-
-                    if(id!=null)
-                    {
                     String consulta = "SELECT * FROM mitabla WHERE id="+id;
                     tabla = instruccion.executeQuery(consulta);
                     tabla.next();
@@ -57,7 +54,7 @@
                     out.println("</FORM>");                     
                     tabla.close();
                     instruccion.close();
-                    }else{out.println("NO SE ENCONTRÓ EL REGISTRO" );}
+                    
 
                     canal.close();
                 } catch (SQLException sqlEx) {
@@ -77,7 +74,6 @@
                          String id = request.getParameter("idd");
                          String nombre =request.getParameter("nombre");
                          String edad =request.getParameter("edad");
-                         out.println(id+nombre+edad);
                          String actualizar = "UPDATE mitabla SET NOMBRE = '"+nombre+"', EDAD="+edad+" WHERE id="+id+";";
                          out.println("Registro actualizado con exito");
                     int re = instruccion.executeUpdate(actualizar);
