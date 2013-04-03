@@ -30,12 +30,13 @@
                          String nombre =request.getParameter("nombre");
                          String edad =request.getParameter("edad");
                          String insertar = "INSERT INTO mitabla VALUES("+id+",'"+nombre+"',"+edad+") ";
-                  
-                        int re = instruccion.executeUpdate(insertar);
+                         int re = instruccion.executeUpdate(insertar);
+                         out.println("Registro Ingresado con éxito");
                     instruccion.close();
                     canal.close();
                     } catch (SQLException sqlEx) {
                          System.out.println("SQL  Exception:" + sqlEx.toString());
+                         out.println("No se pudo ingresar el Registro");
                      } catch (ClassNotFoundException classEx) {
                          System.out.println("hola" + classEx.toString());
                      } catch (Exception Ex) {

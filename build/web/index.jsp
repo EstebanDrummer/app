@@ -12,23 +12,10 @@
         <title>Funciones Básicas</title>
     </head>
     <body>
-<<<<<<< HEAD
         <h1>Principal</h1>
          <a href="Insertar.jsp">Insertar<a/>
          <a href="Borrar.jsp">Borrar<a/>
          <a href="Actualizar.jsp">Actualizar<a/>
          <a href="Consultar.jsp">Consultar</a>
-=======
-        <h1>Hello World!</h1>
-         <a href="#">Insertar<a/>
-<<<<<<< HEAD
-         <a href="#">Borrar<a/>
-         <a href="Actualizar.jsp">Actualizar<a/>
-=======
-         <a href="Borrar.jsp">Borrar<a/>
-         <a href="#">Actualizar<a/>
->>>>>>> Borrar
-         <a href="Consulta.jsp">Consultar</a>
->>>>>>> Actualizar
     </body>
 </html>

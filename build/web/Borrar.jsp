@@ -33,6 +33,7 @@
                          canal.close();
                      } catch (SQLException sqlEx) {
                          System.out.println("SQL  Exception:" + sqlEx.toString());
+                         out.println("No se pudo Borrar el registro");
                      } catch (ClassNotFoundException classEx) {
                          System.out.println("hola" + classEx.toString());
                      } catch (Exception Ex) {
